@@ -1,0 +1,10 @@
+# O programa deve mostrar a casa decimal de cada algorítimo
+n = int(input('Digite um número: '))
+u = int(n // 1 % 10)
+d = int(n // 10 % 10)
+c = int(n // 100 % 10)
+m = int(n // 1000 % 10)
+print('A unidade é {:.0f}'.format(u))
+print('A dezena é {:.0f}'.format(d))
+print('A centena é {:.0f}'.format(c))
+print('O milhar é {:.0f}'.format(m))
